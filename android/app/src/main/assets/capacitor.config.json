@@ -1,0 +1,16 @@
+{
+  "appId": "io.ionic.starter",
+  "appName": "playdemo",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 1000
+    },
+    "Keyboard":{
+      "resize": "body"
+    }
+  },
+  "cordova": {}
+}
