@@ -17,7 +17,8 @@ export class AppComponent {
   initializeApp() {
     this.platform.ready().then(() => {
 
-      // If we comment the status bar code the keyboard works
+      // If we comment the status bar style and  setOverlaysWebView code the keyboard works
+
       StatusBar.setStyle({
         style: StatusBarStyle.Light,
       });
